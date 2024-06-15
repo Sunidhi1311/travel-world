@@ -35,8 +35,7 @@ const Home = () => {
                 <span className='highlight'>memories</span>
               </h1>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet, risus a iaculis feugiat, quam turpis feugiat nisl, vel interdum arcu erat eu ligula. Nullam et lectus varius, fringilla arcu aliquet, fringilla nisl. Nunc molestie, dui at sodales mattis, augue nisi blandit tellus, id sodales velit felis vel elit. Nam tristique porttitor ipsum, vitae pellentesque justo faucibus sit amet. Mauris nec nunc leo. Donec sed leo ac lacus eleifend fringilla blandit eu ipsum. 
-              </p>
+              Welcome to Travel World, where your journey begins! At Travel World, we believe that travel is more than just a destination; it's an experience that shapes you, enriches your life, and creates memories that last a lifetime. Our mission is to turn your travel dreams into reality by offering comprehensive tour booking services tailored to your unique interests and preferences.              </p>
             </div>
           </Col>
 
@@ -85,8 +84,7 @@ const Home = () => {
         </Row>
       </Container>
     </section>
-    {/*WWWWWWWWWWWW FEATURED TOUR SECTION END WWWWWWWWWWWWWWWWW */}
-
+     {/*WWWWWWWWWWWW FEATURED TOUR SECTION END WWWWWWWWWWWWWWWWW */}
     {/*WWWWWWWWWWWW EXPERIENCE SECTION START WWWWWWWWWWWWWWWWW */}
     <section>
       <Container>
@@ -96,9 +94,11 @@ const Home = () => {
               <Subtitle subtitle={'Experience'} />
               <h2>With all our experience <br /> we will serve you</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Travel World is a premier travel website dedicated to providing seamless and personalized travel experiences. With a passion for exploration and a commitment to excellence, we specialize in crafting bespoke tours that cater to all types of travelers, from solo adventurers and couples to families and groups.
                 <br />
-                Quas aliquam, hic tempora inventore suscipit unde.
+                Embark on your next adventure with Travel World. Visit our website to explore our destinations, browse our curated tours, and book your next trip. Whether you're planning a quick getaway or a month-long expedition, Travel World is your trusted partner in travel.
+</p>
+             <p><h1> Travel World – Where Your Journey Begins.</h1>
               </p>
             </div>
 
@@ -133,7 +133,7 @@ const Home = () => {
         <Row>
           <Col lg='12'>
             <Subtitle subtitle={'Gallery'}/>
-            <h2 className='gallery__title'>Visit our customers tour gallery</h2>
+            <h2 className='gallery__title'>OUR CUSTOMERS TOUR GALLERY</h2>
           </Col>
           <Col lg='12'>
             <MasonryImagesGallery/>
@@ -163,4 +163,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default Home 

@@ -19,11 +19,11 @@ const ThankYou = () => {
                             Thank You
                         </h1>
                         <h3 className="mb-4">
-                            your touch is booked.
+                          Your tour is booked.
                         </h3>
 
                         <Button className='btn primary__btn w-25'>
-                            <Link to='/home'>
+                             <Link to='/home'>
                                 Back to Home
                             </Link>
                         </Button>
